@@ -1,0 +1,42 @@
+[
+  {
+    "id": "task-001",
+    "userId": "user-001",
+    "text": "Design the database schema",
+    "priority": "high",
+    "done": false,
+    "date": "2026-03-27"
+  },
+  {
+    "id": "task-002",
+    "userId": "user-001",
+    "text": "Build REST API with Express",
+    "priority": "high",
+    "done": false,
+    "date": "2026-03-27"
+  },
+  {
+    "id": "task-003",
+    "userId": "user-001",
+    "text": "Connect frontend to backend",
+    "priority": "med",
+    "done": false,
+    "date": "2026-03-27"
+  },
+  {
+    "id": "task-004",
+    "userId": "user-001",
+    "text": "Set up user authentication",
+    "priority": "med",
+    "done": true,
+    "date": "2026-03-27"
+  },
+  {
+    "id": "task-005",
+    "userId": "user-001",
+    "text": "Write README documentation",
+    "priority": "low",
+    "done": false,
+    "date": "2026-03-28"
+  }
+]

@@ -506,11 +506,11 @@ nav{
         <p class="login-title">Welcome back</p>
         <p class="login-sub">Sign in to your account to continue</p>
         <div class="err" id="err-login">Invalid email or password.</div>
-        <div class="field"><label>Email address</label><input id="le" type="email" placeholder="you@example.com"/></div>
+        <div class="field"><label>Email address</label><input id="le" type="email" placeholder="you@example.com" value="demo@taskalot.app"/></div>
         <div class="field">
           <label>Password</label>
           <div style="position:relative">
-            <input id="lp" type="password" placeholder="••••••••" style="width:100%;padding-right:44px"/>
+            <input id="lp" type="password" placeholder="••••••••" value="demo123" style="width:100%;padding-right:44px"/>
             <button onclick="togglePw('lp','eye-login')" type="button" style="position:absolute;right:0;top:0;height:100%;width:42px;background:transparent;border:none;cursor:pointer;color:var(--muted);display:flex;align-items:center;justify-content:center;transition:color .2s">
               <svg id="eye-login" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" width="16" height="16">
                 <path d="M1 8s2.5-5 7-5 7 5 7 5-2.5 5-7 5-7-5-7-5z"/><circle cx="8" cy="8" r="2"/>
@@ -520,7 +520,7 @@ nav{
         </div>
         <button class="btn-primary" onclick="doLogin()">Sign in →</button>
         <p class="login-hint">No account? <span onclick="switchTab('register')">Create one free</span></p>
-        
+        <div class="demo-hint"><span>Demo:</span> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="fa9e9f9795ba8e9b89919b96958ed49b8a8a">[email&#160;protected]</a> / demo123</div>
       </div>
 
       <!-- ── REGISTER FORM ── -->

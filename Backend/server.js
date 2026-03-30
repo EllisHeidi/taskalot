@@ -25,7 +25,7 @@ if (!fs.existsSync(tasksFile)) fs.writeFileSync(tasksFile, '[]');
 
 // ── Middleware ────────────────────────────────────────
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://127.0.0.1:5500', 'http://localhost:5500', 'https://ellisheidi.github.io'],
+  origin: ['http://localhost:3000', 'http://127.0.0.1:5500', 'http://localhost:5500', 'https://ellisheidi.github.io', 'https://ellisheidi.github.io'],
   credentials: true
 }));
 

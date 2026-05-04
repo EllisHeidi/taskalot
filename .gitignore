@@ -1,0 +1,10 @@
+# ── Backend (not needed for GitHub Pages) ──
+Backend/node_modules/
+Backend/data/
+Backend/.env
+
+# ── OS & editor junk ──
+.DS_Store
+Thumbs.db
+.vscode/
+*.log

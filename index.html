@@ -803,13 +803,7 @@ nav{
 // ══════════════════════════════════════
 //  STATE
 // ══════════════════════════════════════
-let tasks = JSON.parse(localStorage.getItem('taska_v3') || 'null') || [
-  { id:uid(), text:'Design the database schema',   priority:'high', done:false, date:fmtDate(new Date()) },
-  { id:uid(), text:'Build REST API with Express',  priority:'high', done:false, date:fmtDate(new Date()) },
-  { id:uid(), text:'Connect frontend to backend',  priority:'med',  done:false, date:fmtDate(new Date()) },
-  { id:uid(), text:'Set up user authentication',   priority:'med',  done:true,  date:fmtDate(new Date()) },
-  { id:uid(), text:'Write README documentation',   priority:'low',  done:false, date:fmtDate(new Date()) },
-];
+let tasks = JSON.parse(localStorage.getItem('taska_v3') || '[]');
 
 let filter = 'all';
 let calYear  = new Date().getFullYear();
